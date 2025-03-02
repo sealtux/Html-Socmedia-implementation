@@ -1,0 +1,89 @@
+<!DOCTYPE>
+<html>
+<head><title> My site</title></head>
+
+
+<body>
+<table border = "1">
+   <tr align="center">
+      <th width = "100">Sunday</th>
+      <th width = "100">Monday</th>
+   </tr>
+
+   <tr align="center">
+      <th>1-9</th>
+      <th>1-8</th>
+      
+   </tr>
+   
+</table>
+<a href ="snakegame.html" 
+   target="_blank">
+   
+</a>
+
+<button onclick = "dosomething()" style="font-size: 15px; background-color: beige;  border-radius: 25px;" >hello</button>
+<p id = "hello">greeting</p>
+
+<form action = "index.php" method ="POST">
+
+<label for ="username"> username:</label>
+<input type ="text" id= "username"minlength = "6" maxlength="15" placeholder = "username"required>
+<br>
+
+<label for = password>Password</label>
+<input type = "password" id = password>
+<br>
+<label for="email" >Email</label>
+<input type="email" id = "email">
+<br>
+<label for = "phone">Phone:</label>
+<input typer = "phone" id = "phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+<br>
+<label for = "bday"> birthday:</label>
+<input type = "date" id = "bday">
+<br>
+<label for = "quantity">Quantity</label>
+<input type = "number" min = "0" max = "99" value ="1">
+<br>
+<label for = "title">title:</label>
+<label for = "mr">Mr.</label>
+<input type = "radio" id = "mr" label = mr>
+<br>
+<label for = "payment">Payment:</label>
+<select id = "payment">
+   <option>Visa</option>
+   <option>Mastercard</option>
+</select>
+<br>
+<label for = "subscribe">subscribe</label>
+<input type = checkbox id = subscribe> 
+<br>
+
+
+<label for = comment></label>
+
+<input type="reset">
+<input type ="submit">
+</form>
+
+
+
+<script>
+
+function dosomething(){
+   document.getElementById("hello").innerHTML ="1+1" 
+}
+</script>
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
