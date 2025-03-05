@@ -1,9 +1,50 @@
-body{
-    background-color: black;
+body {
+    background-color: #ffffff;
 }
-p{
-    color:azure
+
+p {
+    color: azure;
 }
-#p1{
+
+#p1 {
     color: saddlebrown;
+}
+
+.square {
+    width: 100%; /* Make it full-width */
+    height: 130px;
+    background-color: hsl(197, 78%, 37%);
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;  /* Enables Flexbox */
+    align-items: center; /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-left: 1000px;
+   
+  
+}
+.search-bar input {
+    flex: 1;
+    padding: 8px;
+    
+   
+    outline: none;
+    margin-left: 100;
+}
+.search-bar button {
+    padding: 8px 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
 }
